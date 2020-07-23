@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="static/img/favicon.ico">
+
+    <title>Bright | Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="static/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  
+    <div class="fakeloader"></div>  
+  
+	<!-- start wrapper -->	
+    <div class="wrapper">	
+	
+	  <!-- start top-wrapper -->	
+      <div class="top-wrapper"> 	  
+        <div class="top-bar"> 
+		  <div class="container">
+		    <div class="row">
+			  <div class="col-lg-6 col-md-6 col-sm-6">
+			    <ul class="top-contact">
+				  <li><i class="fa fa-map-marker"></i>CDUT, Chengdu, Sichuan</li>
+                  <li><a href="mailto:#"><i class="fa fa-envelope"></i>office@yourdomain.com</a></li>				  
+				</ul>
+			  </div>
+			  <div class="col-lg-6 col-md-6 col-sm-6">
+				<ul class="top-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>				
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>				
+				</ul>
+			  </div>			  
+		    </div>
+		  </div>
+	    </div><!-- /.top-bar -->			
+	    <div class="header">
+		  <div class="container">
+		    <div class="row">
+			  <div class="col-lg-12 col-md-12 col-sm-12">
+	            <a class="responsive-menu" href="#menu"><i class="fa fa-navicon"></i></a>
+	            <a class="logo-light" href="index.html"><img src="static/img/logo_light.png" alt="" /></a>
+                <ul class="second-nav">				
+				  <li><a id="trigger-overlay" href="#"><i class="fa fa-search"></i></a></li>
+				</ul><!-- /.second-nav -->
+				<nav class="menu">
+			    <ul>
+				<li><a href="\">Home</a></li>
+				<li><a href="\about">About Us</a></li>
+				<li><a href="\portfolio">Projects</a></li>
+				<li class="active sub">
+				  <a href="#">Blog</a>
+					<ul>
+						<li><a href="blog.html">Right Sidebar</a></li>
+						<li><a href="blog_left_sidebar.html">Left Sidebar</a></li>
+						<li><a href="blog_full_width.html">Full Width</a></li>
+						<li><a href="blog_single_post.html">Single Post</a></li>	
+					</ul>
+				</li>
+				<li class="last"><a href="#" data-toggle="modal" data-target="#myModal">Contact Us</a></li>				
+			    </ul>
+				</nav>
+		      </div>
+		    </div>
+		  </div>
+	    </div><!-- /.header -->		
+	  </div>
+	  <!-- end top-wrapper -->	  
+	  <!-- start content -->	
+	  <div class="content">	  
+        <div id="hero-slider" class="owl-carousel">
+          <div class="item">
+		    <img src="static/img/slide01.jpg" alt="" />
+			<div class="container">
+	          <div class="h-caption">
+		        <h1 class="h-title">
+		          51JOB数据<br> 后端开发招聘信息爬取
+		        </h1>
+		        <p class="h-subtitle">
+		          51JOB crawling back-end development recruitment information list <br> powered by python.
+		        </p>	
+		        <a class="btn btn-primary" href="#">learn more</a>
+		      </div>			
+		    </div>
+		  </div>		  
+          <div class="item">
+		    <img src="static/img/slide02.jpg" alt="" />
+			<div class="container">
+	          <div class="h-caption">
+		        <h1 class="h-title">
+		          51JOB数据 <br> 后端开发招聘信息可视化
+		        </h1>
+		        <p class="h-subtitle">
+		          Visual analysis of recruitment information for 51job back-end development <br> Echarts and WordCloud.
+		        </p>	
+		        <a class="btn btn-primary" href="#">learn more</a>
+		      </div>			
+		    </div>
+		  </div>
+        </div><!-- /#hero-slider -->		
+		<div class="block">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-lg-6 col-md-6 col-sm-6">
+		        <h2>Who we are</h2>
+                <div class="line"></div>
+				  <p class="subtitle" style="margin-bottom: 30px;"> 我们是来自成都理工大学的一支名为“我爱喝可乐”的不知名团队，成员由周勇吉和王天政组成。</p>
+				  <p>这一网站主要用来展现专业实训的成果，包括爬取数据、数据的分析以及可视化。利用python对网站内容进行爬取，利用爬取到的数据进行分析并可视化，通过词云或者图表来展现分析数据的内容与结果。</p>
+				  <div style="height: 30px; clear: both;"></div>
+				  <a class="btn btn-default" style="color: #fff;" href="\about">read more</a>
+		      </div>
+		      <div class="col-lg-6 col-md-6 col-sm-6">
+		        <img class="mockup" src="static/img/about.png" style="width: 350px;" alt="" />
+		      </div>			  
+		    </div>
+		  </div>
+		</div><!-- /.block -->
+          <!-- start intro -->
+	<div id="intro">
+        <div class="counter-wrapper" style="background-color: transparent;">
+           <div class="container">
+            <div class="row text-center">
+              <div class="col-lg-3 col-md-3 col-sm-6 counter-box">
+			    <i class="icon-cup" style="display: block; font-size: 38px; color: #2dcc70; margin-bottom: 25px;"></i>
+                <div class="counter" style="display: inline-block; color: #fff;">5000</div>
+                <div class="title_counter"><h4>Coffes Drinked</h4></div>
+		      </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 counter-box">
+			    <i class="icon-pencil" style="display: block; font-size: 38px; color: #2dcc70; margin-bottom: 25px;"></i>
+                <div class="counter" style="display: inline-block; color: #fff;">2500</div>
+                <div class="title_counter"><h4>Code Lines</h4></div>
+		      </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 counter-box">
+			    <i class="icon-note" style="display: block; font-size: 38px; color: #2dcc70; margin-bottom: 25px;"></i>
+                <div class="counter" style="display: inline-block; color: #fff;">400</div>
+                <div class="title_counter"><h4>Pages Created</h4></div>
+		      </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 counter-box">
+			    <i class="icon-star" style="display: block; font-size: 38px; color: #2dcc70; margin-bottom: 25px;"></i>
+                <div class="counter" style="display: inline-block; color: #fff;">1</div>
+	            <div class="title_counter"><h4>Completed Projects</h4></div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<!-- end intro -->
+		<!-- start block -->
+		<div class="block grey" style="padding-bottom: 0;">			
+		  <div class="container text-center">
+		    <h2>Our latest projects</h2>
+			<div class="line center"></div>	
+            <div style="height: 20px; clear: both"></div>
+		  </div>		  
+            <div class="container-fluid">
+              <div class="row">
+			    <div class="col-lg-3 col-md-3 col-sm-3 item grid cs-style-3" style="padding: 0;"><figure><img src="static/img/portfolio/1.jpg" alt="img01"><figcaption><h3><a href="/p_showdata">51JOB后端开发招聘信息表</a></h3><span>周勇吉 王天政</span></figcaption></figure></div>
+			    <div class="col-lg-3 col-md-3 col-sm-3 item grid cs-style-3" style="padding: 0;"><figure><img src="static/img/portfolio/2.jpg" alt="img02"><figcaption><h3><a href="/p_dataanalyze">51JOB后端开发招聘数据分析</a></h3><span>周勇吉 王天政</span></figcaption></figure></div>
+			    <div class="col-lg-3 col-md-3 col-sm-3 item grid cs-style-3" style="padding: 0;"><figure><img src="static/img/portfolio/3.jpg" alt="img03"><figcaption><h3><a href="/p_wordcloud">51JOB后端开发招聘信息词云</a></h3><span>暂无</span></figcaption></figure></div>
+			    <div class="col-lg-3 col-md-3 col-sm-3 item grid cs-style-3" style="padding: 0;"><figure><img src="static/img/portfolio/4.jpg" alt="img05"><figcaption><h3><a href="single_project.html">暂无</a></h3><span>暂无</span></figcaption></figure></div>
+              </div>				
+            </div>				
+			<!-- start promo-box -->
+			<div class="promo-box">
+			  <div class="container">			
+			    <div class="row">			
+			      <div class="col-lg-9 col-md-9 col-sm-9">			
+			        <h2>我们会实时更新新推出的项目</h2>
+                  </div>	
+			      <div class="col-lg-3 col-md-3 col-sm-3">			
+			        <a class="btn btn-transparent" href="portfolio.html">more projects</a>
+                  </div>					  
+                </div>		  
+              </div>		  
+            </div>	
+			<!-- end promo-box -->			
+		</div>
+	  </div>
+
+	  <!-- start footer -->	  
+	  <footer class="footer">	  
+	    <div class="footer-top">		
+	      <div class="container">		  
+	        <div class="row">			
+	          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	            <a class="logo" href="\"><img src="static/img/logo_light.png" alt="" /></a>
+				<p class="text-widget">Mama, just killed a man. Put a gun against his head, pull my trigger now he's dead.</p>
+				<p class="text-widget">Didn't mean to make you cry. If I'm not back again this time tommorrow.</p>
+		      </div>			  
+	          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	            <h5 class="widget-title">Latest From Our Blog</h5>	
+				<ul class="post-list">
+				  <li><a href="#">Lyrics of June-Florence + The Machine</a><p class="date">July 23, 2020</p></li>
+				  <li><a href="#">I can't face the morning</a><p class="date">July 23, 2020</p></li>
+				  <li><a href="#">Damn it feel so lonely</a><p class="date">July 23, 2020</p></li>
+				</ul>					
+		      </div>			  
+	          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	            <h5 class="widget-title">tag cloud</h5>		
+				<div class="tags">
+			      <div class="tag"><a href="">awesome</a></div>
+			      <div class="tag"><a href="">flat</a></div>
+			      <div class="tag"><a href="">creative</a></div>
+			      <div class="tag"><a href="">theme</a></div>
+			      <div class="tag"><a href="">css</a></div>
+			      <div class="tag"><a href="">multipurpose</a></div>
+			      <div class="tag"><a href="">ipad</a></div>
+			      <div class="tag"><a href="">business</a></div>
+			      <div class="tag"><a href="">portfolio</a></div>
+			      <div class="tag"><a href="">corporate</a></div>
+			      <div class="tag"><a href="">html</a></div>
+			      <div class="tag"><a href="">website</a></div>
+			    </div>					
+		      </div>			  
+	          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	            <h5 class="widget-title">Keep in Touch</h5>
+			  <ul class="footer-contact">
+			    <li><i class="fa fa-map-marker"></i><span>Adress:CDUT, <br> Chengdu, Sichuan</span></li>
+			    <li><i class="fa fa-phone"></i><span>Phone: +86 (234) 567-89-10</span></li>
+			    <li><i class="fa fa-envelope"></i><span>Email: <a href="mailto:#">office@yourdomain.com</a></span></li>				
+			  </ul>	
+				<ul class="footer-social">
+				  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				  <li><a href="#"><i class="fa fa-behance"></i></a></li>
+				  <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+				  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+				</ul>				  
+		      </div>			  
+		    </div>			
+		  </div>		  
+		</div>
+		<!-- end footer-top -->		
+		<!-- start footer-bottom -->		
+	    <div class="footer-bottom">		
+	      <div class="container">		  
+	        <div class="row">			
+	          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><p>Copyright &copy; 2020 <a href="#">alphawd</a>. All Rights Reserved.</p></div>
+	          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			    <ul class="footer-menu">
+			      <li><a href="#">FAQ's</a></li>
+			      <li><a href="#">Sitemap</a></li>
+			      <li><a href="#">Contact</a></li>
+			    </ul>		
+		      </div>		  
+		    </div>			
+		  </div>		  
+		</div>		
+		<!-- end footer-bottom -->		
+	  </footer>
+	  <!-- end footer -->		  	  
+	  <nav id="menu">
+	    <ul>
+	      <li><a href="index.html">Home</a></li>
+	      <li><a href="#">About Us</a>
+					<ul>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="about_2.html">About Us 2</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="services_2.html">Services 2</a></li>
+						<li><a href="full-width.html">Full Width</a></li>
+						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li class='sub'>
+							<a href='#'>Multi-Level Drop-Down</a>
+							<ul>
+							  <li><a href='#'>Drop-Down Example</a></li>
+							  <li><a href='#'>Drop-Down Example</a></li>
+							  <li class='last'><a href='#'>Drop-Down Example</a></li>
+							</ul>
+						</li>
+					</ul>
+		  </li>
+	      <li><a href="portfolio.html">Portfolio</a>
+				    <ul>
+						<li><a href="portfolio_2_cols.html">2 Columns</a></li>
+						<li><a href="portfolio_3_cols.html">3 Columns</a></li>
+						<li><a href="portfolio_4_cols.html">4 Columns</a></li>
+						<li><a href="single_project.html">Single Project</a></li>
+					</ul>		  
+		  </li>
+	      <li><a href="blog.html">Blog</a>
+					<ul>
+						<li><a href="blog.html">Right Sidebar</a></li>
+						<li><a href="blog_left_sidebar.html">Left Sidebar</a></li>
+						<li><a href="blog_full_width.html">Full Width</a></li>
+						<li><a href="blog_single_post.html">Single Post</a></li>	
+					</ul>		  
+		  </li>
+	      <li><a href="#" data-toggle="modal" data-target="#myModal">Contact us</a></li>
+	    </ul>
+	  </nav><!-- /#nav -->	
+    <!-- start modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">  
+        <div class="modal-content">	
+          <div class="modal-header">
+	        <div class="form-top-left ">
+              <h4 class="modal-title" id="myModalLabel">Contact us</h4>
+		      <p class="modal-subtitle">Fill in the form bellow to send us a message:</p>
+            </div>
+            <div class="form-top-right">
+              <i class="fa fa-envelope"></i>
+            </div>
+          </div>	  
+          <div class="modal-body">	  
+            <!-- contacts -->
+            <div id="contacts">	  
+              <div class="row">			
+                <!-- alignment -->
+	            <div class="col-lg-12 col-md-12 col-sm-12">
+	              <!-- form itself -->
+                  <form name="sentMessage" class="" id="contactForm" novalidate>
+		            <div class="control-group">
+                      <div class="controls">
+			            <input type="text" class="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
+			            <p class="help-block"></p>
+		              </div>
+	                </div>			 
+                    <div class="control-group">
+                      <div class="controls">
+			            <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
+		              </div>
+	                </div>			  
+                    <div class="control-group">
+                      <div class="controls">
+		                <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+		              </div>
+                    </div>			   
+	                <div id="success"> </div> <!-- For success/fail messages -->		 
+	                <button type="submit" class="btn btn-primary pull-left">Send message</button><br>		
+                  </form>		  
+	            </div>	
+              </div>	  
+            </div>	
+          </div>	  
+        </div>	
+      </div>  
+    </div>	
+    <!-- end modal -->		  
+	  <div class="overlay overlay-scale">
+	    <button type="button" class="overlay-close">Close</button>
+	    <div class="container">
+          <form id="header-search-form" class="center-block" method="get" action="#">
+            <input id="header-search" type="text" onblur="if (this.value == '')this.value = 'Start Typing...';" onfocus="if (this.value == 'Start Typing...')this.value = '';" autocomplete="off" style="height:150px;" value="Start Typing..." name="s">
+          </form>
+	    </div>	
+	  </div><!-- /.overlay -->  
+	
+    </div>
+	<!-- end wrapper -->	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/modernizr.custom.js"></script>		
+	<!-- loader effect -->	
+    <script src="static/js/fakeLoader.min.js"></script>
+	<!-- overlay effect -->	
+    <script src="static/js/classie.js"></script>
+	<script src="static/js/demo1.js"></script>	
+	<!-- off-canvas menu -->
+	<script type="text/javascript" src="static/js/jquery.mmenu.min.js"></script>
+    <!-- isotope filter -->	
+    <script src="static/js/jquery.isotope.min.js"></script>		
+	<!-- jQuery parallax -->		
+	<script type="text/javascript" src="static/js/jquery.parallax-1.1.3.js"></script>		
+	<!-- counter -->
+    <script src="static/js/waypoints.min.js"></script>
+    <script src="static/js/jquery.counterup.min.js"></script>
+    <script src="static/js/toucheffects.js"></script>		
+    <!-- owl carousel -->
+    <script src="static/js/owl.carousel.js"></script>	
+	<!-- contact form -->
+    <script src="static/js/jqBootstrapValidation.js"></script>
+    <script src="static/js/contact_me.js"></script>
+    <!-- custom js -->		
+    <script src="static/js/custom.js"></script>		
+	
+  </body>
+</html>
